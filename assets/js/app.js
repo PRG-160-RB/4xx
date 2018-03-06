@@ -2,15 +2,21 @@
 
 'use strict';
 
-var applicationTitle = 'inside out - js';
+
 
 var applicationTagline = 'continously falling forward into the light';
+
+var appData = {
+	title: 'inside out - js',
+	tagLine: 'continously falling forward into the light'
+	
+};
 
 window.addEventListener('load', initializeApplication);
 
 function initializeApplication() {
     
-    document.title = applicationTitle;
+    document.title = appData.title;
     
     document.body.style.backgroundColor = '#BBB';
     document.body.style.textAlign = 'center';
@@ -24,27 +30,30 @@ var elWrapper = document.createElement('div');
     elWrapper.appendChild(elHeader);
     
     var elHeaderTitle = document.createElement('H1');
-    elHeaderTitle.innerHTML = applicationTitle;
+    elHeaderTitle.innerHTML = appData.title;
     elHeader.appendChild(elHeaderTitle);
+	elHeaderTitle.className = 'animated bounceInDown';
     
     var elHeaderTagLine = document.createElement('h2');
-    elHeaderTagLine.textContent = applicationTagline;
+    elHeaderTagLine.textContent = appData.tagLine;
     elHeader.appendChild(elHeaderTagLine);
     elHeaderTagLine.style.fontSize = '.4em';
+	elHeaderTagLine.className = 'animated bounceInLeft';
     
     
     var elMain = document.createElement('main');
     elMain.innerHTML = '<p> Hello World! </p>'
     elWrapper.appendChild(elMain);
+	 elMain.className = 'animated zoomIn';
     
     var elFooter = document.createElement('footer');
      elFooter.innerHTML = '<h4>get excited about learning JavaScript...</h4>';
     elWrapper.appendChild(elFooter);
+    elFooter.className = 'animated bounceInRight';
     
-    elHeaderTitle.className = 'animated bounceInDown';
-    elHeaderTagLine.className = 'animated bounceInLeft';
-        elMain.className = 'animated zoomIn';
-        elFooter.className = 'animated bounceInRight';
+    
+       
+        
     
     
 }
