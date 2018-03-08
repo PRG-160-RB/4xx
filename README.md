@@ -11,3 +11,11 @@ inside out project version 401.0
  -moved title and tagLine variables into appData
  -refactored the initialize function 
  
+ inside out project version 401.1
+ -added bootstrap to the index.html file
+ -added a DOM injection of the progress bar in the app.js
+ -created a display pb function in the app.js 
+ -
+ 
+ 
+ 
