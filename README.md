@@ -20,7 +20,17 @@ inside out project version 401.0
    -added style.css and linked in index.html
    -added login form function and call after progress bar is completed
    -added minimal validateLogin function to check for blank strings
- 
+   
+ inside out version 403.0
+  -added the application user interface- sidebar, wrapper, navigation, etc.
+  -added the build menu function, which returns the navigation menu and will increase
+     in  dynamic navigation building.
+  - aded the build main function which returns the primary content area and 
+      will evovle to return content dynamically.
+  -replaced document.write with 
+     call to applicationUserInterface function in the validatelogin  function
+ - added the linkClicked function which is called by the click events on anher elemnts
+   and returns dynamically driven results.
 
  
  
