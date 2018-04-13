@@ -53,4 +53,6 @@ inside out project version 401.0
 +     - modified linkClicked function to dynamically populate main content with array content
 +- added the assets/data/quotes.js file
 +     - code changes https://www.diffchecker.com/YlRCv0UM
+
+<!--Robert Bright-->
  

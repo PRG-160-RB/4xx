@@ -126,3 +126,4 @@ function linkClicked(obj) {
      var str = '<div class="infoDiv"><h1 class="animated zoomIn">' + quotArr[obj.dataset.dest][0] + '</h1><div class="animated slideInRight auth">- ' + quotArr[obj.dataset.dest][1] + '</div></div>';
      document.getElementById("main").innerHTML = str;
 }
+//Robert Bright 

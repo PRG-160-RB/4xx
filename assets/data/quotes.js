@@ -418,3 +418,6 @@
    		["Build your own dreams, or someone else will hire you to build theirs.", "Farrah Gray, investor and motivational speaker"],
    		["You may be disappointed if you fail, but you are doomed if you donâ€™t try.", "Beverly Sills, operatic soprano"]
    	] // JavaScript Document
+
+   
+//   Robert Bright 
