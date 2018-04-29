@@ -54,5 +54,26 @@ inside out project version 401.0
 +- added the assets/data/quotes.js file
 +     - code changes https://www.diffchecker.com/YlRCv0UM
 
+inside out project version 405.0  (copied from Brians Readme file)
++- index.html
++    - added script tag to pull in ajax.js file
++    - code changes https://www.diffchecker.com/YvNo8ojf
++- style.css
++    - modifed .contStage by adjusting the (left: 180px;) - changed value to 80px to close gap between side manu and the content
++    - clead up comments
++    - code changes https://www.diffchecker.com/DO5umcE7
++- app.js
++    - clead up comments
++    - added sideMenu array to the appData object to be used to call ajax to load the pages & posts from the me site
++    - modified the displayPB() function - changed preloader time from 50 to 15 to speed up load during development
++    - modified the buildMenu() function to accept menu items from appData object - removed call to quotes array
++    - modified the linkClicked() function 
++         - added conditional to evaluate if the object clicked is in the menu array of the appData.sidemenu object
++         - added ajax call to grab posts/pages
++    - code changes https://www.diffchecker.com/KBziC4iw
++- added the assets/data/ajax.js file
++     - code changes https://www.diffchecker.com/jVWFzAwU     
+
+
 <!--Robert Bright-->
  
